@@ -1,0 +1,93 @@
+
+@media(min-width:555px) and (max-width:870px) {
+        /* navbar css  */
+        .link:hover{
+            display: none;
+            /* border: 1px solid #6B0504;
+          color:#6B0504; */
+        }
+        .link{
+            display: none;
+        }
+        
+        .nav{
+        display: none;
+        }
+        .nav > h2 {
+            display: none;
+        }
+        /* mobileNav css*/
+        .mainNav{
+            background-color: #D6CFCB;
+            display: flex;
+            justify-content: flex-end;
+            gap: 19%;
+            height: 50px;
+            width: 100vw;
+            box-shadow: 0 3px 8px rgba(0,0,0,.24);
+            position: fixed;
+            top: 0;
+            z-index: 999;
+        }
+        .hamburger{
+            margin-right: 6%;
+            margin-top: 1%;
+            color: black;
+            cursor: pointer;
+        }
+
+        .link2{
+                padding: 2px;
+                text-decoration: none;
+                color: black;
+            } 
+        .link2:hover{
+                color:#6B0504;
+            }
+        .closeIcon{
+            cursor: pointer;
+            margin-right: 6%;
+            margin-top: 1%;
+        }
+        .ul{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 3.1rem;
+            width: 100vw;
+            background-color: #D6CFCB;
+            list-style: none;
+            z-index: 1;
+            align-items: flex-end;
+        }
+        .ul > li{
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            align-self:flex-start;
+        }
+    }
+    @media(min-width:870px){
+        .link:hover{
+            border: 1px solid #6B0504;
+            color:#6B0504;
+        }
+        .nav{
+            width: 100vw;
+            box-shadow: 0 3px 8px rgba(0,0,0,.24);
+            background-color: #D6CFCB;
+            position: fixed;
+            top: 0;
+            z-index: 999;
+
+        }
+        .mainNav{
+            display: none;
+        }
+        .hamburger{
+            display: none ;
+        }
+        .link2{
+            display: none;
+        }
+    }

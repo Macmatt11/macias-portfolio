@@ -1,0 +1,155 @@
+@media(min-width:550px){
+    .aboutContainer{
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 100vh;
+    }
+    
+    .aboutImg{
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      width: 100%;
+      margin-top: 11%;
+      height: 30vh;
+    }
+    
+    .aboutMe{
+    margin-top: 7%;
+    color: #6B0504;
+    align-self: center;
+    }
+    .driven{
+      font-size: 1.5rem;
+      margin-top: 3%;
+      margin-bottom: 4%;
+    }
+    .aboutP{
+      font-size: .9rem;
+    }
+  }
+  @media(min-width:660px){
+    .aboutImg{
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      width: 85%;
+      align-self: center;
+      margin-top: 11%;
+      height: 30vh;
+    }
+  }
+  @media(min-width:700px){
+    .aboutImg{
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      width: 75%;
+      align-self: center;
+      margin-top: 11%;
+      height: 30vh;
+    }
+  }
+  @media(min-width:815px){
+    .aboutImg{
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      width: 65%;
+      align-self: center;
+      margin-top: 11%;
+      height: 30vh;
+    }
+  }
+  @media(min-width:870px){
+        /* about  */
+.aboutContainer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.aboutImg{
+  grid-column: 1/3;
+  grid-row: 3/6;
+  position: relative;
+  bottom: 3%;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  height: 30vh;
+  width: 35vw;
+}
+
+.aboutMe{
+grid-column: 3/4;
+grid-row: 2/3;
+margin-top: 25%;
+color: #6B0504;
+}
+.driven{
+  grid-column: 3/-1;
+  grid-row: 3/4;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  
+}
+.aboutP{
+  grid-column: 3/-1;
+  grid-row: 4/7;
+}
+  }
+  @media(min-width:1160px){
+    .aboutImg{
+      grid-column: 1/3;
+      grid-row: 3/6;
+      position: relative;
+      bottom: 3%;
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      height: 35vh;
+      width: 35vw;
+    }
+  }
+  @media(min-width:1360px){
+    .aboutImg{
+      grid-column: 1/3;
+      grid-row: 3/6;
+      position: relative;
+      bottom: 3%;
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      height: 37vh;
+      width: 35vw;
+    }
+  }
+@media(min-width:1458px){
+    /* about  */
+.aboutContainer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.aboutImg{
+  grid-column: 1/3;
+  grid-row: 3/6;
+  position: relative;
+  bottom: 3%;
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  height: 40vh;
+  width: 35vw;
+}
+
+.aboutMe{
+grid-column: 3/4;
+grid-row: 2/3;
+margin-top: 25%;
+color: #6B0504;
+}
+.driven{
+  grid-column: 3/-1;
+  grid-row: 3/4;
+  font-size: 1.5rem;
+  margin-top: 3%;
+  
+}
+.aboutP{
+  grid-column: 3/-1;
+  grid-row: 4/7;
+}
+  }
