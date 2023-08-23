@@ -223,15 +223,15 @@
     }
 }
 @media(min-width:501px){
-    .floatingImg{
+    .floatingImg {
         overflow: hidden;
-        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-        transform: translatey(0px);
+        box-shadow: 0 5px 15px #0009;
+        transform: translatey(0);
         animation: float 6s ease-in-out infinite;
         margin-left: 60%;
-        margin-top: -119%;
+        margin-top: -126%;
         height: 15vh;
-        width: 28vw;
+        width: 24vw;
     }
 }
 @media(min-width:520px){
