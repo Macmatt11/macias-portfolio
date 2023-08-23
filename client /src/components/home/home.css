@@ -222,7 +222,7 @@
         width: 28vw;
     }
 }
-@media(min-width:501px){
+@media(min-width:500px){
     .floatingImg {
         overflow: hidden;
         box-shadow: 0 5px 15px #0009;
