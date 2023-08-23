@@ -1,3 +1,263 @@
+@media(min-width:320px){
+        
+/* home css */
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100vh;
+    gap: 20px;
+    }
+    .workTitle{
+        font-size: 2rem;
+        margin-top: 5.5rem;
+        width: 43vw;
+        font-weight: bold;
+    }
+    .homeP{
+    font-size:1rem ;
+    }
+    .social-media{
+    display: flex;
+    gap: 5%;
+    font-size: 1.7rem;
+    justify-content: center;
+    position: relative;
+    top: 4%;
+    }
+    .icon1:hover{
+        color: #6B0504;
+    }
+    .icon2:hover{
+        color: #6B0504;
+    }
+    
+    .techStack{
+    margin-top: 4%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 4%;
+    }
+    .homeUl{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .homeUl > li:hover{
+        animation: shake 0.5s infinite;
+    }
+    .techImg{
+        height: 35px;
+        width: 35px;
+        position:relative;
+        left: 8px;
+        top: 12px;
+        align-self: center;
+    }
+    
+    /* Define the shaking animation */
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px) rotate(-5deg); }
+        50% { transform: translateX(5px) rotate(5deg); }
+        75% { transform: translateX(-5px) rotate(-5deg); }
+        100% { transform: translateX(0); }
+    }
+    
+    @keyframes float {
+        0% {
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+        }
+        50% {
+            box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+            transform: translatey(-20px);
+        }
+        100% {
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+        }
+    }
+    
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -167%;
+        height: 10vh;
+        width: 24vw;
+    }
+    
+}
+@media(min-width:382px){
+        
+    /* home css */
+    .homeContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 100vh;
+        gap: 20px;
+        }
+        .workTitle{
+            font-size: 2rem;
+            margin-top: 5.5rem;
+            width: 43vw;
+            font-weight: bold;
+        }
+        .homeP{
+        font-size:1rem ;
+        }
+        .social-media{
+        display: flex;
+        gap: 5%;
+        font-size: 1.7rem;
+        justify-content: center;
+        position: relative;
+        top: 4%;
+        }
+        .icon1:hover{
+            color: #6B0504;
+        }
+        .icon2:hover{
+            color: #6B0504;
+        }
+        
+        .techStack{
+        margin-top: 4%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 4%;
+        }
+        .homeUl{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .homeUl > li:hover{
+            animation: shake 0.5s infinite;
+        }
+        .techImg{
+            height: 35px;
+            width: 35px;
+            position:relative;
+            left: 8px;
+            top: 12px;
+            align-self: center;
+        }
+        
+        /* Define the shaking animation */
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px) rotate(-5deg); }
+            50% { transform: translateX(5px) rotate(5deg); }
+            75% { transform: translateX(-5px) rotate(-5deg); }
+            100% { transform: translateX(0); }
+        }
+        
+        @keyframes float {
+            0% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+            50% {
+                box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+                transform: translatey(-20px);
+            }
+            100% {
+                box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+                transform: translatey(0px);
+            }
+        }
+        
+        .floatingImg{
+            overflow: hidden;
+            box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+            transform: translatey(0px);
+            animation: float 6s ease-in-out infinite;
+            margin-left: 60%;
+            margin-top: -157%;
+            height: 11vh;
+            width: 24vw;
+        }
+        
+}
+@media(min-width:412px){
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -143%;
+        height: 13vh;
+        width: 28vw;
+    }
+}
+@media(min-width:446px){
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -136%;
+        height: 13vh;
+        width: 28vw;
+    }
+}
+@media(min-width:476px){
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -126%;
+        height: 13vh;
+        width: 28vw;
+    }
+}
+@media(min-width:501px){
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -119%;
+        height: 15vh;
+        width: 28vw;
+    }
+}
+@media(min-width:520px){
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -113%;
+        height: 15vh;
+        width: 28vw;
+    }
+}
+@media(min-width:537px){
+    .floatingImg{
+        overflow: hidden;
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+        animation: float 6s ease-in-out infinite;
+        margin-left: 60%;
+        margin-top: -105%;
+        height: 15vh;
+        width: 28vw;
+    }
+}
 @media(min-width:555px){
     
 /* home css */
@@ -439,10 +699,52 @@
         grid-column: 3/5;
         grid-row: 2/4;
         margin-left: 28%;
-        margin-top: -1%;
-        height: 35vh;
+        margin-top: -2%;
+        height: 40vh;
         width: 24vw;
     }
+    .techStack{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        line-height: 4.5;
+        font-size: 1.5rem;
+        text-align: end;
+        position: relative;
+        left: 45%;
+        line-height: 6;
+        }
+        .techImg{
+            height: 50px;
+            width: 50px;
+        }
+        .homeUl{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            grid-column: 2/-1;
+            grid-row: 5/6;  
+            margin-top: 5%;
+        }
+        .homeUl > li{
+            background-color: #fff;
+            border-radius: 50%;
+            box-shadow: 0 3px 8px rgba(0,0,0,.24);
+            height: 4.5rem;
+            width: 4.5rem;
+        }
+        li:hover{
+            animation: shake 0.5s infinite;
+        }
+        
+        /* Define the shaking animation */
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            25% { transform: translateX(-5px) rotate(-5deg); }
+            50% { transform: translateX(5px) rotate(5deg); }
+            75% { transform: translateX(-5px) rotate(-5deg); }
+            100% { transform: translateX(0); }
+        }
+        
 }
 @media(min-width:1390px){
     .floatingImg{
@@ -453,8 +755,8 @@
         grid-column: 3/5;
         grid-row: 2/4;
         margin-left: 28%;
-        margin-top: -1%;
-        height: 38vh;
+        margin-top: -2%;
+        height: 40vh;
         width: 24vw;
     }
     .workTitle{
@@ -646,7 +948,7 @@
         grid-column: 3/5;
         grid-row: 2/4;
         margin-left: 35%;
-        margin-top: -1%;
+        margin-top: -2%;
         height: 40vh;
         width: 24vw;
     }

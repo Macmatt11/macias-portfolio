@@ -3,7 +3,21 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@media(min-width:320px){
+  .footer{
+    bottom: 0;
+    width: 100vw;
+    background-color: #D6CFCB;
+    position: fixed;
+    display: flex;
+    gap: 25px;
+    height: 55px;
+  }
+  .company{
+    font-size: .5rem;
+  }
+  
+}
 @media(min-width:555px){
 
 /* footer */

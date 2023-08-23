@@ -7,7 +7,7 @@ export default function Navigation(){
         <nav className ='nav flex p-3 font-sans'>
             <h2 className='mr-auto ml-10 mt-3'>
                 <Link to="/">
-                mathemacias.dev
+                mathew-macias.dev
                 </Link>
                 </h2>
                 <Link to="/" className="link mr-3 p-3 hover:ease-in duration-150">
